@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&family=Poppins&family=Roboto:wght@900&family=Work+Sans&display=swap');
+
+* {
+    margin: 0%;
+}
+
+/* architect home line */
+
+.header {
+    background-color: rgba(255, 144, 14, 0.1);
+    width: 100%;
+    border-radius: 8px;
+
+}
+
+.main {
+    margin-top: 50px;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.span {
+    margin-left: 100px;
+    font-family: 'Work Sans';
+    font-size: 45px;
+    font-weight: 700px;
+    margin-top: 50px;
+}
+
+.nav a {
+    margin-bottom: 50px;
+    color: #424242;
+    font-size: 18px;
+    font-weight: 500px;
+    text-decoration: none;
+    margin-right: 100px;
+
+}
+
+/* brand title and desciription */
+/* .brand, */
+.brand-title {
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 10%;
+    margin-top: 20px;
+
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    height: 64px;
+    width: 180px;
+    background: #FF900E;
+    border-radius: 5px;
+    border: 0;
+    padding: 9px 18px;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.brand-title {}
+
+.banner {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 700px;
+    height: 400px;
+
+
+}
+
+/* place and information */
+
+.work {
+    display: flex;
+    justify-content: space-around;
+}
+
+.work-photo {
+    display: flex;
+    gap: 10px;
+    margin-left: 70px;
+
+
+}
+
+.photo-size {
+    width: 342px;
+    height: 342px;
+}
+
+.working-info {
+    margin-left: 76px;
+    margin-top: 130px;
+    width: 537px;
+    height: 304px;
+    justify-content: flex-end;
+
+}
+
+.work-title {
+    width: 480px;
+    height: 106px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 80px;
+}
+
+.span {
+    color: #727272;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.span-1 {
+    color: #131313;
+}
+
+.span-2 {
+    color: #FF900E;
+}
+
+.work-difo {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+
+}

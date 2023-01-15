@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Work Sans';
+}
+
+.header {
+    background-color: #FF900E1A;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    padding-bottom: 48px;
+}
+
+.nav {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.nav-item {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.nav-item a {
+    text-decoration: none;
+    margin-left: 24px;
+    margin-right: 24px;
+    color: #424242;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.nav-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.landing {
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 36px;
+}
+
+.landing-title {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 64px;
+    max-width: 90%;
+    margin-top: 32px;
+    margin-bottom: 12px;
+    color: #131313;
+}
+
+.landing-sub {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.btn-primary {
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 20px;
+    background: #FF900E;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-top: 24px;
+    max-width: 200px;
+}
+
+.banner {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+.feature {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.teams-grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto;
+}
+
+.teams-grid>img {
+    flex: 1;
+    height: 280px;
+    width: 280px;
+}
+
+.feature-info {
+    padding-left: 48px;
+}
+
+.feature-title {
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.of-our-span {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.features-span {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+
+.feature-description {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.feature-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 36px;
+}
+.feature-2-img{
+    position: relative;
+}
+.architect-img {
+    background: url('/images/architect.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40vw;
+    height: 100%;
+    text-align: end;
+}
+
+.feature-2-main-title {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 12px;
+    margin-left: 24px;
+    margin-right: 48px;
+    margin-bottom: 12px;
+    color: #131313;
+    border-left: solid 5px #FF900E;
+    padding-left: 24px;
+}
+
+.feature-2-main-desc {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+
+    margin-left: 24px;
+    margin-right: 60px;
+}
+
+.feature-item {
+    margin-bottom: 12px;
+    margin-top: 12px;
+    margin-left: 24px;
+    margin-right: 60px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.feature-item-title {
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+
+.feature-item-desc {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #727272;
+}
+
+.experience-button {
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    padding: 28px;
+    position: absolute;
+    bottom: -50px;
+    left: -50px;
+}
+
+.experience-button-txt {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 65px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.exp {
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.facts-main {
+    margin-left: 10%;
+    margin-top: 36px;
+}
+
+
+.facts-title {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.facts-desc {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.facts-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    margin-top: 36px;
+}
+
+.facts-item {
+    text-align: center;
+    border-radius: 8px;
+    padding-right: 36px;
+    padding-left: 36px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border: 1px solid #FF900E;
+}
+
+.facts-item:hover {
+    transform: scale(1.5);
+    margin-top: 36px;
+}
+/* .facts-item img:hover{
+    height: 100px;
+    width: 100px;
+} */
+.num {
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/* .num:hover {
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 65px;
+    color: #424242;
+    margin-top: 0px;
+    margin-bottom: 0px;
+} */
+
+.fact-title {
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/* .fact-title:hover {
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 30px;
+    color: #727272;
+    margin-top: 0px;
+    margin-bottom: 0px;
+} */
+
+.sponsors {
+    text-align: center;
+}
+
+.sponsor-title {
+    text-align: center;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.sponsor-desc {
+    text-align: center;
+    font-family: 'Work Sans';
+    max-width: 30%;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 auto;
+    color: #727272;
+    margin-bottom: 36px;
+}
+
+.sponsor-icons {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sponsor-icons>img {
+    filter: grayscale(100%);
+}
+
+footer {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 20px;
+}
+.about{
+    width: 100%;
+    /* height: 70vh; */
+    /* margin-top: 120px; */
+}
+.footer-content{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.left-footer-content{
+    width: 80%;
+    height: 78vh;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.left-title{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.left-content{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    width: 40%;
+}
+
+.right{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footer-desc{
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #131313;
+}
+
+.social-media{
+    padding: 8px;
+}
+
+.subscribe-title{
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 25px;
+    color: #131313;
+}
+input{
+    width: 325px;
+    height: 64px;
+    border: 1px solid #131313;
+    border-radius: 8px;
+    font-size: 18px;
+    padding-left: 15px;
+    color: #131313;
+    background-color: #151414;
+    background-color: transparent;
+    
+
+}
+
+.copyright {
+    background-color: #FFF4E7;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #424242;
+}
+
